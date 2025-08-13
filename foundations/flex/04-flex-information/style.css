@@ -8,8 +8,20 @@ img {
 }
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  align-items: center;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.fact {
+  width: 200px;
 }
 
 /* do not edit this footer */
