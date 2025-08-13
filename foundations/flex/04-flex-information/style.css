@@ -11,18 +11,24 @@ img {
   display: flex;
   font-size: 36px;
   font-weight: 900;
-  align-items: center;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .information {
   display: flex;
   justify-content: center;
+  gap: 52px;
 }
 
 .fact {
   width: 200px;
-  margin: 0 0 0 52px;
+  text-align: center;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
 }
 
 
