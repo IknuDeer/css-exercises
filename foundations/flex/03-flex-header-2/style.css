@@ -18,11 +18,15 @@ body {
 
 .left-header {
   display: flex;
+  gap: 16px;
 }
 
 .right-header {
   display: flex;
   margin-left: auto;
+  margin-right: 8px;
+  gap: 16px;
+  align-items: center;
 }
 
 .links {
@@ -42,6 +46,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 8px;
 }
 
 button {
@@ -50,6 +55,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  height: 32px;
 }
 
 a {
@@ -61,4 +67,5 @@ a {
 ul {
   list-style-type: none;
   padding: 0;
+  gap: 16px;
 }
