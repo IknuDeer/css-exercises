@@ -28,6 +28,7 @@ ul {
   color: white;
   font-size: 32px;
   font-weight: 900;
+  padding-left: 16px;
 }
 
 .footer {
@@ -36,6 +37,8 @@ ul {
   flex: 0 1 auto;
   background: #eee;
   color: darkmagenta;
+  justify-content: center;
+  align-items: center;
 }
 
 .center {
@@ -60,8 +63,8 @@ ul {
 
 .card {
   display: flex;
-  width: 450px;
-  height: 450px;
+  width: 350px;
+  height: 350px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
