@@ -66,7 +66,6 @@ a {
 .footer {
   display: flex;
   margin-top: auto;
-  justify-self: end;
   justify-content: space-between;
   padding: 16px;
   background-color: #eeeeee;
